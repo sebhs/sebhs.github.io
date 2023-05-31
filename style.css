@@ -4,3 +4,9 @@ body {
 a, a:visited, a:hover, a:active {
 	color: #0000EE
   }
+
+  @media screen and (max-width: 480px) {
+    body {
+      font-size: 2em
+    }
+  }
