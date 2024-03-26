@@ -1,12 +1,19 @@
 body {
-    padding: 50px
+  padding: 50px;
 }
-a, a:visited, a:hover, a:active {
-	color: #0000EE
-  }
+a,
+a:visited,
+a:hover,
+a:active {
+  color: #0000ee;
+}
 
-  @media screen and (max-width: 480px) {
-    body {
-      padding: 25px
-    }
+@media screen and (max-width: 480px) {
+  body {
+    padding: 25px;
   }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
